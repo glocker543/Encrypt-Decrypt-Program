@@ -1,0 +1,5 @@
+This is an example file to use in my encryption/decryption program.
+
+When the file is encrypted via RSA, encryption keys are generated simultaneously. The file cannot be decrypted without the corresponding RSA decryption key. Additionally, upon encryption, the file is hashed using SHA-256. Therefore, after decrypting the file, its integrity can be verified by comparing the hash values from the original file and the decrypted file.
+
+If the file has been corrupted or modified in any way, a comparison of the hash values will reveal discrepancies.
